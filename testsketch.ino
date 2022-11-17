@@ -4,16 +4,18 @@ int i = 0;
 void setup() {
     pinMode(LED_BUILTIN, OUTPUT);
     Serial.begin(115200);
-    delay(3000); // wait for serial monitor to open
-    Serial.print(F("begin testsketch")); 
+    delay(7500); // wait a few seconds for me to open serial monitor
+    Serial.println(F("begin testsketch")); 
 }
 
 void loop() {
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(1500);
+    delay(1000);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(10000);
+    delay(5000);
     Serial.print(F("loop: "));
     Serial.println(i++);
     Serial.flush();
 }
+
+
