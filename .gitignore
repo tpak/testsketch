@@ -7,15 +7,11 @@
 # Ignore build folder
 /build
 
-# Ignore files built by Visual Studio/Visual Micro
+# Ignore files built by Visual Studio Code, JetBrains IDEs, and other editors
+# but keep helper files like arduino.json
 [Dd]ebug*/
 [Rr]elease*/
-.vs/
-__vm/
-*.vcxproj*
-.vscode/
-platform.sloeber.txt
-boards.sloeber.txt
+.vscode/c_cpp_properties.json
 
 # Ignore docs build (Sphinx)
 docs/build
