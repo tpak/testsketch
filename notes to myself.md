@@ -14,7 +14,7 @@ Updated arduino-cli
 arduino-cli 0.28.0 -> 0.29.0
 
 --- 
-Pyhton requirement
+Python requirement
 pip3 install pyserial
 
 ---
